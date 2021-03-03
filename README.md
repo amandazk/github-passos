@@ -1,3 +1,10 @@
+### Primeiros passos
+ - Fazer o fork
+ - git clone do seu repositório
+```bash
+git remote add upstream <Link do repositório original (forked)
+```
+
 ### Atualizar upstream
 ```bash
 git fetch upstream
