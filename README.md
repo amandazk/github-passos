@@ -56,25 +56,21 @@ git push origin <nome da branch>
  - Exemplo <nome da branch> = tema-x
  - Feito isso, as alterações irão aparecer no seu PR
 
-## Se o PR for aceito
+## Se o PR for aceito / Como enviar um novo tema
  - Sair da branch atual para a master
-```bash
-git checkout master
-git pull upstream master
-git push origin master
-```
-
-### Como enviar um novo tema
- - Sair da branch do tema anterior
 ```bash
 git checkout master
 git fetch upstream
 git rebase upstream/master
-git push origin master
 ```
  - Criar uma nova branch
 ```bash
 git checkout -b tema-y
 ```
- - Faz o novo tema e quando terminar, volta para o passo de alterações
+ - Colocar os arquivos do tema
+```bash
+git add .
+git commit -m ""
+git push origin tema -y
+```
  - Quando terminar, dar um pull request no github
