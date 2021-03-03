@@ -49,6 +49,14 @@ git push origin <nome da branch>
  - Exemplo <nome da branch> = tema-x
  - Feito isso, as alterações irão aparecer no seu PR
 
+## Se o PR for aceito
+ - Sair da branch atual para a master
+```bash
+git checkout master
+git pull upstream master
+git push origin master
+```
+
 ### Como enviar um novo tema
  - Sair da branch do tema anterior
 ```bash
