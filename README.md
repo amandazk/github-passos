@@ -1,13 +1,3 @@
-<p align="center">
-  <img src="/imagens/git.png" alt="git" width=400 height=200>
-</p>
-
-<h1 align="center">
-    Primeiros Passos com Github
-</h1>
- 
-
-
 ### Primeiros passos
  - Fazer o fork
  - git clone do seu repositório
