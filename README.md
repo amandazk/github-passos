@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="/imagens/git.png" alt="js" width=400 height=200>
+  <img src="/imagens/git.png" alt="git" width=400 height=200>
 </p>
 
 <h1 align="center">
